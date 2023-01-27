@@ -8,14 +8,14 @@ const App = () => {
   return (
     <BrowserRouter>
       {/* Header */}
-      <header className="w-full flex justify-between items-center bg-[#FFCEFE] sm:px-8 px-4 py-4 border-b border-b-[#FFCEFE]">
+      <header className="w-full flex justify-between items-center bg-[#E7717D] sm:px-8 px-4 py-4 border-b border-b-[#E7717D]">
         <Link to="/">
           <img src={openai} alt="logo" className="h-10 w-10 object-cover" />
         </Link>
 
         <Link
           to="/create-post"
-          className="font-inter font-medium bg-[#a600ff] text-white px-4 py-2 rounded-md"
+          className="font-inter font-medium bg-[#f3f3f3] text-[#E7717D] px-4 py-2 rounded-md"
         >
           Create Post
         </Link>
