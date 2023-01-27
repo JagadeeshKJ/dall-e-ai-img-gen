@@ -90,7 +90,7 @@ const CreatePost = () => {
           Create Post
         </h1>
 
-        <p className="mt-2 text-[#666e75] text-[1rem] max-w-[31.25rem]">
+        <p className="mt-2 text-[#666e75] text-[1rem]">
           Create imaginative and visually stunning images through DALL-E AI and
           share them with the world.
         </p>
